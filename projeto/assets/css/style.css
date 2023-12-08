@@ -4,71 +4,165 @@
     box-sizing: 0;
     font-family: Arial;
 }
-
 body{
+    margin:0;
+    padding: 0;
     width: 100%;
     height: 100vh;
     display:flex;
     justify-content: center;
     align-items: center;
+
+
 }
 
 footer{
-
+ bottom:0;
 }
 #table-line{
     border-bottom: solid 1px;
+    
 }
 
-footer table tr td{
-    text-align: inherit;
-
-}
-.slider{
-    margin: 0, auto;
-    width: 800px;
-    height: 400px;
-    overflow: hidden;
-
-}
-
-.slides{
-    width: 400%;
-    height: 400px;
-    display: flex;
-}
-
-.slides input{
-    display:none;
-}
-
-.slide{
-    width: 25%;
+.itens-table{
+    display:flex;
     position: relative;
+    gap:3px;
+}
+#table-collumn-first{
+    margin: 1000px;
+}
+.itens-footer{
+    display:flex;
 }
 
-.slide img{
-    width: 800px;
+.logo img{
+    width: 200px;
 }
 
-.manual-navigation{
-    position:absolute;
-    width: 800px;
-    margin-top: -40px;
-    display: flex;
-    justify-content: center;
+
+/* arthur */
+
+#pagLogin{
+    margin-top: 50px;
+    align-items: center;
+    margin-left: 422px;
 }
 
-.manual-btn{
-    border:2px solid #fff;
-    padding:5px;
-    border-radius: 10px;
-    cursor: pointer;
-    margin-left: 2px;
-    transition: 1s;
+#pagLogin p{
+margin-top: 0px;
+color: #01005A;
+padding-bottom: 20px;
+
 
 }
 
-.manual-btn:not(:last-child){
-    margin-right:40px;
+#Esqueci{
+    margin-top: -32px;
+    color: #01005A;
+    padding-bottom: 16px;
+    margin-left: 10px 
+
+}
+
+#pagLogin h1{
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 125.02%;    
+    color: #000000;
+    margin-bottom: 45px;
+    margin-left: 23px;
+}
+
+#login_email{
+box-sizing: border-box;
+width: 500px;
+height: 70px;
+left: 120px;
+top: 500px;
+border: 5px solid #6C6464;
+border-radius: 20px;
+margin:20px 20px 20px 1px;
+padding: 20px 20px 15px 20px;
+}
+
+
+#login_senha{
+
+
+box-sizing: border-box;
+width: 500px;
+height: 70px;
+left: 70px;
+top: 500px;
+border: 5px solid #6C6464;
+border-radius: 20px;
+padding: 20px 20px 15px 20px;
+
+}
+
+#entrar{
+cursor: pointer;
+width: 180px;
+height: 75px;
+margin-left: 150px;
+left: 727px;
+top: 1514px;
+background: #01005A;
+border-radius: 10px;
+margin-top: 50px;
+font-size: 18px;
+
+}
+
+#entrar :hover button{
+background-color: blue;
+}
+
+#entrar h2{
+color:white;
+}
+
+#semConta{
+
+margin-left: 161px;
+margin-top: 8px;
+}
+
+
+#loginVoltar{
+width: 180px;
+height: 75px;
+left: 22px;
+top: 1892px;
+background: #01005A;
+border-radius: 8px;
+margin-top: 80px;
+margin-right: 90px;
+padding-left: 2%;
+padding-right: 2%;
+}
+
+#loginVoltar{
+
+    padding-right: 2%;
+}
+
+#loginVoltar h2{
+color:white;
+
+}
+
+#ocultar{
+ height: 60px; 
+ cursor: pointer;
+ padding-top: 5%;
+ padding-left: 5% ;
+ padding-right: 5%;
+ padding-bottom: 5%;
+ margin-top: -112px;
+ margin-left: 383px;
 }
