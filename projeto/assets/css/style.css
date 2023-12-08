@@ -1,17 +1,19 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: 0;
+    box-sizing: border-box;
     font-family: Arial;
+
 }
 body{
     margin:0;
     padding: 0;
     width: 100%;
     height: 100vh;
-    display:flex;
-    justify-content: center;
-    align-items: center;
+    
+    
+    /* justify-content: center;
+    align-items: center; */
 
 
 }
@@ -29,7 +31,7 @@ footer{
     position: relative;
     gap:3px;
 }
-#table-collumn-first{
+.table-collumn-first{
     margin: 1000px;
 }
 .itens-footer{
@@ -165,4 +167,226 @@ color:white;
  padding-bottom: 5%;
  margin-top: -112px;
  margin-left: 383px;
+}
+
+/* gabriel */
+
+header{
+    background-color: #01005A;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    align-items: center;
+    height: 100px;
+}
+
+.cabecalho{
+    display: flex;
+
+}
+#burger{
+    font-size: 48px;
+    
+}
+
+#burger:hover{
+    cursor: pointer;
+}
+
+.material-icons{
+    font-size: 36px;
+    color: white;
+    display: flex;
+    width: 50px;
+    height: 50%;
+    margin: auto;
+    padding: 0px 24px;
+    text-align: center;
+    align-items: flex-start;
+    display: none;
+    font-size: 48px;
+}
+
+.logo{
+    background-color: transparent;
+    width: 15%;
+    align-items: center;
+}
+
+.logo img{
+    width: 80%;
+    position: relative;
+    left: 30%;
+    padding-bottom: -10%;
+    padding-top: 5%;
+    margin-left: -200px;
+}
+
+.buttons{
+    display: flex;
+    height: 40%;
+    margin: 0px 60px;
+    padding: 50px 0px;
+    align-items: center;
+    align-content: center;
+    top: 50%;
+    
+}
+
+.primary{
+    display: flex;
+    color: white;
+    background-color: #01005A;
+    padding: 20px 10px;
+    margin: 5px 40px 5px 60px;
+    border: none;
+    font-size: medium;
+    font-weight: bold;
+    border-radius: 5%;
+    width: 100%;
+    margin: 40px;
+}
+
+.primary:hover{
+    background-color: #4070E9;
+    transition: 0.2s;
+}
+
+.secondary{
+    display: flex;
+    color: white;
+    background-color: #01005A;
+    padding: 20px 10px;
+    margin: 5px 40px;
+    border: none;
+    font-size: medium;
+    font-weight: bold;
+    border-radius: 5%;
+}
+
+.secondary:hover{
+    background-color: #4070E9;
+    transition: 0.2s;
+}
+
+.login{
+    background-color: #0909E5;
+    color: white;
+    display: flex;
+    padding: 10px 25px;
+    margin: 5px 50px;
+    border-radius: 10px;
+    border: none;
+    font-size: medium;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+}
+i{
+    font-size: 48px;
+}
+
+h1{
+    font-size: medium;
+}
+
+button{
+    background-color: #01005A;
+    color: white;
+    border: none;
+    cursor: pointer;
+    
+}
+
+#itens{
+    display: none;
+    margin: auto;
+}
+
+li{
+    list-style: none;
+}
+
+#pessoa{
+    padding: 6px 0;
+}
+
+/* santos */
+
+
+
+footer {
+    background-color: #01005A;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    height: 50%;
+    display: flex;
+    font-size: 20px;
+    display:flex;
+    position: fixed;
+}
+
+#logo {
+    width: 450px;
+    margin-left: 50px;
+}
+
+#text_copy {
+    margin-left: 150px;
+    top: auto;
+}
+.logo-rodape{
+    width: 100%;
+}
+.right-itens {
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+    margin-top: 80px;
+}
+
+.right-itens p {
+    margin: 0;    
+}
+
+.first-line{
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.social-icons {
+    width: 100%;
+    display:flex;
+    background-color: transparent;
+}
+
+.social-icons img {
+    width: 10px;
+    height: 200px;
+    margin: 10px;
+
+}
+
+
+#twitter {
+    width: 125px;
+    height: 125px;
+}
+
+#linkedin{
+    width: 122px;
+    height:122px;
+}
+
+#instagram{
+    width: 130px;
+    height: 130px;
+}
+
+#facebook{
+    width: 125px;
+    height: 125px;
 }
