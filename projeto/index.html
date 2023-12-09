@@ -10,34 +10,43 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">  
 </head>
 <body>
-  <header>
-    <div class="cabecalho">
-        <i class="material-icons" id="burger" onclick="clickmenu()">menu</i>
-            <menu id="itens">
-                <nav>
-                    <ul>
-                        <li><button href="#"><i class="material-icons">person</i>Acessar minha conta</p></button></li>
-                        <li><button href="#"><i class="material-icons">shopping_bag</i>Produtos</button></li>
-                        <li><button href="#"><i class="material-icons">groups</i>Quem somos</button></li>
-                        <li><button href="#"><i class="material-icons">more_horiz</i>Mais opções</button></li>
-                    </ul>
-                </nav>  
-            </menu>
-        <div class="logo">
-            <img src="assets/img/Logo.png" alt="">
+    <!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>New Trip - Agência de viagens</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="js.js"></script>
+</head>
+<body>
+    <header>
+        <div class="cabecalho">
+            <i class="material-icons" id="burger" onclick="clickmenu()">menu</i>
+                <menu id="itens">
+                    <nav>
+                            <li><button href="#"><i class="material-icons">person</i>Acessar minha conta</button></li>
+                            <li><button href="#"><i class="material-icons">shopping_bag</i>Produtos</button></li>
+                            <li><button href="#"><i class="material-icons">groups</i>Quem somos</button></li>
+                            <li><button href="#"><i class="material-icons">more_horiz</i>Mais opções</button></li>
+                    </nav>  
+                </menu>
+            <div class="logo">
+                <img src="assets/img/Logo.png" alt="">
+            </div>
+            <div class="buttons">
+            <select class="primary">
+                <option>Ofertas e Destinos</option>
+                <option>coisax</option>
+            </select>
+            <select class="secondary">
+                <option>Atendimento</option>
+            </select>
+            <button class="login"><i class="material-icons">person</i><b>Login</b><img src="" alt=""></button>
+            </div>
         </div>
-        <div class="buttons">
-        <select class="primary">
-            <option>Ofertas e Destinos</option>
-            <option>coisax</option>
-        </select>
-        <select class="secondary">
-            <option>Atendimento</option>
-        </select>
-        <button class="login"><i class="material-icons" id="pessoa">person</i><b>Login</b><img src="" alt=""></button>
-        </div>
-    </div>
-</header>
+    </header>
+</body>
 <img src="" alt="ImgPrincipal" id="ImgPrincipal">
   
 <h1><b>Pacotes</b></h1>
