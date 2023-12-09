@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <title>New Trip - Agência de viagens</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <script src="js.js"></script>
+    <script src="assets/js/script.js"></script>
 </head>
 <body>
     <header>
@@ -13,14 +13,14 @@
             <i class="material-icons" id="burger" onclick="clickmenu()">menu</i>
                 <menu id="itens">
                     <nav>
-                            <li><button href="#"><i class="material-icons">person</i>Acessar minha conta</p></button></li>
-                            <li><button href="#"><i class="material-icons">shopping_bag</i>Produtos</button></li>
-                            <li><button href="#"><i class="material-icons">groups</i>Quem somos</button></li>
-                            <li><button href="#"><i class="material-icons">more_horiz</i>Mais opções</button></li>
+                        <li><a href="pagLogin.html"><button href="#"><i class="material-icons">person</i>Acessar minha conta</button></a></li>
+                        <li><button href="#"><i class="material-icons">shopping_bag</i>Produtos</button></li>
+                        <li><button href="#"><i class="material-icons">groups</i>Quem somos</button></li>
+                        <li><a href="manualidentidade.html"><button href="#"><i class="material-icons">more_horiz</i>Mais opções</button></a></li>
                     </nav>  
                 </menu>
             <div class="logo">
-                <img src="img/logo.png" alt="">
+                <a href="index.html"><button><img src="assets/img/Logo.png" alt=""></button></a>
             </div>
             <div class="buttons">
             <select class="primary">
@@ -30,10 +30,16 @@
             <select class="secondary">
                 <option>Atendimento</option>
             </select>
-            <button class="login"><i class="material-icons">person</i><b>Login</b><img src="" alt=""></button>
+            <a href="pagLogin.html"><button class="login"><i class="material-icons">person</i><b>Login</b><img src="" alt=""></button></a>
             </div>
         </div>
     </header>
     <h1><p>Caso encontre quaisquer problemas ou dificuldades quanto ao funcionamento do site, você pode buscar auxílio na seção de Suporte da New Trip:</p></h1>
-    <button class="suporte"><b>Login</b><i class="material-icons">person</i><img src="" alt=""></button>
+    <button class="suporte"><b>Suporte</b><i class="material-icons">support_agent</i><img src="" alt=""></button>
+    <h2>Manual de Identidade</h2>
+    <div class="painel"><img src="assets/img/icone.png" alt="">
+        <a href="assets/Manual_-_Identidade_NewTrip.pptx" download=""><button class="download"><i class="material-icons" id="seta">arrow_downward</i><p>Fazer Download</p></button>
+    </a></div>
+    <a href="index.html"><button class="voltar">voltar</button></a>
 </body>
+</html>

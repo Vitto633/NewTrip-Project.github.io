@@ -62,7 +62,7 @@ padding-bottom: 20px;
 #Esqueci{
     margin-top: -32px;
     color: #01005A;
-    padding-bottom: 16px;
+    padding-top: 16px;
     margin-left: 10px 
 
 }
@@ -117,7 +117,9 @@ background: #01005A;
 border-radius: 10px;
 margin-top: 50px;
 font-size: 18px;
-
+display: flex;
+justify-content: center;
+align-items: center;
 }
 
 #entrar :hover button{
@@ -338,6 +340,7 @@ color:white;
     margin: 0;
     padding: 0;
     font-family: Arial;
+    text-decoration: none;
 }
 
 header{
@@ -353,8 +356,8 @@ header{
 
 .cabecalho{
     display: flex;
-
 }
+
 #burger{
     font-size: 48px;
 }
@@ -410,7 +413,6 @@ li{
     align-items: center;
     align-content: center;
     top: 50%;
-    
 }
 
 .primary{
@@ -478,7 +480,66 @@ button{
 
 p{
     font-size: medium;
-    padding: 50px 30px;
+    padding: 20px 30px;
+}
+
+h2{
+    padding: 50px 0 0 20px;
+    align-content: center;
+}
+
+.suporte{
+    display: flex;
+    color: white;
+    background-color: #01005A;
+    padding: 20px 15px;
+    margin: 5px 40px 5px 60px;
+    border: none;
+    font-size: medium;
+    font-weight: bold;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.painel{
+    background-color: #01005A;
+    margin: 30px;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    flex-direction: column;
+}
+
+.painel img{
+    width: 70%;
+}
+
+#seta{
+    margin: 0;
+    background-color: white;
+    color: #01005A;
+    border-radius: 30px;
+
+}
+
+.download{
+    display: flex;
+    align-items: center;
+}
+
+.voltar{
+    background-color: #01005A;
+    margin: 30px;
+    padding: 10px 30px;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 24px;
 }
 
 /* santos */
