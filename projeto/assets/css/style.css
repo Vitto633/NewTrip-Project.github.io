@@ -169,6 +169,169 @@ color:white;
  margin-left: 383px;
 }
 
+
+#pacotes{
+    display: flex;
+        width: 1129px;
+    height: 180px;
+    left: 53px;
+    top: 159px;
+    margin-left: 200px;
+    background: #01005A;
+    border-radius: 10px;
+    
+    
+    }
+    
+    #local{
+    margin-top: 47px;
+    margin-left: 50px;
+    }
+    
+    #local button{
+       border:none;
+        width: 200px;
+    height: 60px;
+    left: 108px;
+    top: 1728px;
+    color: white;
+    background: #50A6F3;
+    border-radius: 10px;
+    
+    
+    }
+    
+    #local h4{
+        color:white;
+        font-size: 20px; 
+    }
+    
+    #local h5{
+        font-size: 20px;
+    }
+    
+    #destino{
+        margin-top: 44px;
+        margin-left:100px;
+        border-radius: 10px;
+    }
+    
+    #destino button{
+        border: none;
+        width: 180px;
+        height: 60px;
+        left: 108px;
+        top: 1728px;
+        color: white;
+        background: #50A6F3;
+        border-radius: 10px;
+    }
+    
+    #destino h4{
+      font-size: 20px;
+     color: white;
+     margin-top: 3px;
+    }
+    
+    #periodo{
+       color: white;
+        margin-top: 38px;
+        margin-left: 84px;
+    }
+    
+    #periodo h4{
+        color: white;
+        margin-left: 40px;
+       font-size: 20px;   
+    }
+    
+    #periodo button{
+        width:104px ;
+    }
+    
+    #ida{
+        border: none;
+        width: 150px;
+        height: 60px;
+        left: 108px;
+        top: 1725px;
+        color: white;
+        background: #50A6F3;
+        border-radius: 10px;
+        margin-bottom: 20px;
+        margin-left: 30px;
+       opacity: 1;
+    }
+    #ida h2{
+        display: flex;
+    }
+    
+    #ida button{
+    
+        opacity: 1;
+    }
+    #ida button :hover{
+        opacity: 0.1;
+    }
+    
+    #ida img{
+    
+    height: 20px;
+    
+    }
+    
+    #volta{
+        border: none;
+        width: 150px;
+        height: 60px;
+        left: 108px;
+        top: 1728px;
+        color: white;
+        background: #50A6F3;
+        border-radius: 10px;
+        margin-right: 20px;
+        margin-left: -20px;
+        margin-top: 10px;
+    }
+    
+    #volta img{
+        height: 20px;
+    }
+    
+    #catalogo{
+        display: flex;
+    }
+    
+    
+    
+    #buscar button{
+        height: 30px;
+        border: none;
+        width: 137px;
+        height: 60px;
+        left: 108px;
+        top: 1728px;
+        color: white;
+    color:white;
+    background: #0000C3;
+    border-radius: 10px;
+    margin-top: 83px;
+    margin-left: 84px;
+    font-size: 23px;
+    }
+    
+    #buscar img{
+        height: 32px;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
 /* gabriel */
 
 header{
@@ -326,7 +489,8 @@ footer {
     display: flex;
     font-size: 20px;
     display:flex;
-    position: fixed;
+    position: relative;
+    bottom:0;
 }
 
 #logo {
