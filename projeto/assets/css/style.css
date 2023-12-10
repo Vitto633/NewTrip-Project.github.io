@@ -128,6 +128,7 @@ background-color: blue;
 
 #entrar h2{
 color:white;
+padding: 0;
 }
 
 #semConta{
@@ -157,20 +158,16 @@ padding-right: 2%;
 
 #loginVoltar h2{
 color:white;
-
+padding: 0;
 }
 
 #ocultar{
  height: 60px; 
  cursor: pointer;
- padding-top: 5%;
- padding-left: 5% ;
- padding-right: 5%;
- padding-bottom: 5%;
+ padding: 5%;
  margin-top: -112px;
  margin-left: 383px;
 }
-
 
 #pacotes{
     display: flex;
@@ -515,6 +512,7 @@ h2{
 
 .painel img{
     width: 70%;
+    background-size: 0;
 }
 
 #seta{
@@ -533,7 +531,7 @@ h2{
 .voltar{
     background-color: #01005A;
     margin: 30px;
-    padding: 10px 30px;
+    padding: 0px 20px;
     border-radius: 10px;
     color: white;
     display: flex;
@@ -623,4 +621,246 @@ footer {
 #facebook{
     width: 125px;
     height: 125px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    margin-left: 170px;
+    margin-right: 170px;
+    margin-top: 100px;
+}
+
+#botao {
+    background-color: #01005A;
+    font-size: 25px;
+    width: 150px;
+    height: 60px;
+    border-radius: 10px;
+    position: absolute;
+    top: 1119px;
+}
+
+#quemsomos {
+    margin-left: 50px;
+}
+
+.text {
+    margin-left: 80px;
+}
+
+.conteudo {
+    display: flex;
+}
+
+#right {
+    margin-left: -50px;
+}
+
+.imgs {
+    width: 300px;
+    height: 300px;
+    margin-right: 100px;
+    position: relative;
+    top: -50px;
+    right: -30px;
+}
+
+#text-final {
+    margin-left: 20px;
+    position: relative;
+    top: -90px;
+}
+
+header{
+    background-color: #01005A;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    align-items: center;
+    height: 100px;
+}
+
+.cabecalho{
+    display: flex;
+
+}
+#burger{
+    font-size: 48px;
+}
+
+#burger:hover{
+    cursor: pointer;
+}
+
+li{
+    background-color: #01005A;
+    padding: 5px;
+}
+
+#itens{
+    display: none;
+    margin: auto;
+    list-style: none;
+    position: absolute;
+    top: 70px;
+}
+
+.material-icons{
+    font-size: 36px;
+    color: white;
+    display: flex;
+    width: 50px;
+    height: 50%;
+    margin: auto;
+    text-align: center;
+    align-items: flex-start;
+    font-size: 48px;
+}
+
+.logo{
+    background-color: transparent;
+    width: 15%;
+    align-items: center;
+}
+
+.logo img{
+    width: 80%;
+    position: relative;
+    left: 30%;
+    padding-bottom: -20%;
+}
+
+.buttons{
+    display: flex;
+    height: 40%;
+    margin: 0px 60px;
+    padding: 50px 0px;
+    align-items: center;
+    align-content: center;
+    top: 50%;
+    
+}
+
+.primary{
+    display: flex;
+    color: white;
+    background-color: #01005A;
+    padding: 20px 10px;
+    margin: 5px 40px 5px 60px;
+    border: none;
+    font-size: medium;
+    font-weight: bold;
+    border-radius: 5%;
+}
+
+.primary:hover{
+    background-color: #4070E9;
+}
+
+.secondary{
+    display: flex;
+    color: white;
+    background-color: #01005A;
+    padding: 20px 10px;
+    margin: 5px 40px;
+    border: none;
+    font-size: medium;
+    font-weight: bold;
+    border-radius: 5%;
+}
+
+.secondary:hover{
+    background-color: #4070E9;
+}
+
+.login{
+    background-color: #0909E5;
+    color: white;
+    display: flex;
+    padding: 10px 15px;
+    margin: 5px 50px;
+    border-radius: 10%;
+    border: none;
+    font-size: medium;
+    cursor: pointer;
+    align-items: center;
+}
+
+i{
+    font-size: 48px;
+}
+
+button{
+    background-color: transparent;
+    color: white;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+}
+
+#pessoa{
+    padding: 6px 0;
+}
+
+footer {
+    background-color: #01005A;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    font-size: 20px;
+}
+
+#logo {
+    width: 450px;
+    margin-left: 50px;
+}
+
+#text_copy {
+    margin-left: 150px;
+    top: auto;
+}
+
+.right {
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+    margin-top: 80px;
+    
+}
+
+.right p {
+    margin: 0;
+    
+}
+
+.right h2 {
+    margin-bottom: 20px;
+}
+
+.social-icons {
+    width: 100%;
+    display: grid;
+}
+
+.social-icons img {
+    width: 150px;
+    height: 150px;
+}
+
+#faceb {
+    width: -1000px;
+}
+
+#linked {
+    width: 29%;
+    height: 29%;
 }

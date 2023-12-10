@@ -1,6 +1,15 @@
 @media only screen and (max-device-width: 600px){
 
-/*gabriel*/
+/*geral*/
+    
+    .cabecalho{
+        justify-content: flex-end;
+    }
+
+/*pag de suporte*/
+    #itens{
+        left: 0;
+    }
 
     .primary{
         display: none;
@@ -32,7 +41,7 @@
 
     .painel{
         display: flex;
-        width: 50%;
+        width: 60%;
         height: 60%;
     }
 
@@ -51,12 +60,19 @@
         background-color: #50a6f3;
     }
 
+    #seta{
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+
     #burger{
         margin: 48px 10px;
     }
 
     .voltar{
         height: 10%;
+        padding: 0 30px;
     }
 
     #volta{
@@ -66,10 +82,40 @@
         width: 80%;
         align-items: center;
         justify-content: center;
-
+        margin: 0;
+        font-size: 36px;
     }
 
     #back{
         display: none;
+    }
+
+/*pag de login*/
+    b{
+        display: flex;
+    }
+
+    #login_email{
+        border-radius: 50px;    
+    }
+
+    #login_senha{
+        border-radius: 50px;
+    }
+
+    input{
+        border-radius: 50px;
+    }
+
+    #semConta{
+        display: flex;
+        bottom: 30px;
+        align-items: center;
+        align-content: center;
+        word-wrap: normal;
+    }
+
+    h1{
+        display: inline;
     }
 }
