@@ -5,7 +5,7 @@
     <title>NewTrip - Agência de viagens</title>
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/mobile.css">
-    <script src="assets/js/script.js"></script>
+    <script src="assets/js/script.js" defer></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">  
@@ -16,7 +16,7 @@
             <i class="material-icons" id="burger" onclick="clickmenu()">menu</i>
                 <menu id="itens">
                     <nav>
-                        <a href="pagLogin.html"><li><button href="#"><i class="material-icons">person</i>Acessar minha conta</button></li></a>
+                        <a href="pagLogin.html"><li><button href="pagLogin.html"><i class="material-icons">person</i>Acessar minha conta</button></li></a>
                         <li><button href="#"><i class="material-icons">shopping_bag</i>Produtos</button></li>
                         <li><a href="mais_opcs.html"><button href="#"><i class="material-icons">groups</i>Quem somos</button></li></a>
                         <li><a href="manualidentidade.html"><button href="#"><i class="material-icons">more_horiz</i>Mais opções</button></a></li>
@@ -65,12 +65,73 @@
 
 </div>
 
-
-
 </div>
+<p id="Catalogo">Catálogo</p>
+<div class="container">
+    <button class="arrow-left control" aria-label="Previous image">◀</button>
+    <button class="arrow-right control" aria-label="Next Image">▶</button>
+    <div class="gallery-wrapper">
+      <div class="gallery">
 
+        <div class="slide">
+        <img src="assets/img/slide 1.jpeg" alt="Beach Image" class="item current-item">
+                
+        <p>Ida e volta</p>
+        <h2>Rio de janeiro</h2>
+        <p>Preço a partir de</p>
+        <h2><b>BRL:</b>122,39</h2>
 
-<br>
+      </div>
+      <div class="slide">
+        <img src="assets/img/slide 2.jpeg" alt="Animal Image" class="item current-item">
+                        
+        <p>Ida e volta</p>
+        <h2>Rio de janeiro</h2>
+        <p>Preço a partir de</p>
+        <h2><b>BRL:</b>122,39</h2>
+
+      </div>
+      <div class="slide">
+          <img src="assets/img/slide 3.jpeg" alt="Street Image" class="item current-item">
+                          
+        <p>Ida e volta</p>
+        <h2>Rio de janeiro</h2>
+        <p>Preço a partir de</p>
+        <h2><b>BRL:</b>122,39</h2>
+
+      </div>
+      <div class="slide">
+          <img src="assets/img/slide 4.jpeg" alt="Zoo Image" class="item current-item">
+                        
+          <p>Ida e volta</p>
+          <h2>Rio de janeiro</h2>
+          <p>Preço a partir de</p>
+          <h2><b>BRL:</b>122,39</h2>
+  
+        </div>
+      <div class="slide">
+          <img src="assets/img/slide 2.jpeg" alt="Model Image" class="item current-item">
+                
+          <p>Ida e volta</p>
+          <h2>Rio de janeiro</h2>
+          <p>Preço a partir de</p>
+          <h2><b>BRL:</b>122,39</h2>
+  
+        </div>
+              <!-- <div class="item current-item cyan"></div>
+        <div class="item deeppink"></div>
+        <div class="item turquoise"></div>
+        <div class="item darkblue"></div>
+        <div class="item purple"></div> -->
+        
+        
+      
+      
+      
+      </div>
+    </div>
+  </div>
+<!-- <br>
 <div id="catalogo">
 <p>Ida e volta</p>
 <h2>Rio de janeiro</h2>
@@ -85,21 +146,27 @@
 <p>Esgotados</p>
 <h2>Natal</h2>
 <p>Esgotado</p>
-</div>
+</div> -->
+
+
 
 
 <div id="mais_opcoes">
-<h3>Pacotes</h3>
-<br>
-<p><b>Os melhores paoctes feitos para você</b></p>
-
-<h3>Hoteis/resorts</h3>
-<br>
-<p><b>Descubra onde ira se hospedar</b></p>
-
-<h3>Destinos</h3>
-<br>
-<p><b>Encontre seu destino</b></p>
+    <div class="cards-legais">
+        <h3>Pacotes</h3>
+        <br>
+        <p><b>Os melhores paoctes feitos para você</b></p>
+    </div>
+    <div class="cards-legais">
+        <h3>Hoteis/resorts</h3>
+        <br>
+        <p><b>Descubra onde ira se hospedar</b></p>
+    </div>
+    <div class="cards-legais">
+        <h3>Destinos</h3>
+        <br>
+        <p><b>Encontre seu destino</b></p>        
+    </div>
 </div>
 
 
@@ -112,19 +179,18 @@
 <button id="cadastrarSe">cadastrar-se</button>
 </div>
 
-
-<div id="sobre">
-
-<h2 id="sobreNos">Sobre Nós</h2>
-<p id="descricao">Somos uma empresa que gerencia viagens e excursões para diversos lugares dentro do Brasil.
- Levamos desde escolas para excursões até pessoas físicas e jurídicas,
-  aqui você encontra os melhores locais,Hoteis,Resorts e muito mais, 
-  saiba mais sobre a NEW TRIP abaixo.</p>
-<button id="mais">Saiba mais</button>
-  
-
 </div>
-
+<div class="sobre-nos-card">
+    <div id="lindao">
+        <p id="nos">Sobre nós</p>
+        <p>Somos uma empresa que gerencia viagens e excursões para diversos lugares dentro do Brasil. Levamos desde escolas para excursões até pessoas físicas e jurídicas, aqui você encontra os melhores locais,Hoteis,Resorts e muito mais, saiba mais sobre a NEW TRIP abaixo.</p>
+    </div>
+    <div class="logo-daqui">
+        <img src="assets/img/Logo.png">
+        <button>Saiba mais</button>
+    </div>
+    
+</div>
 
 
 
