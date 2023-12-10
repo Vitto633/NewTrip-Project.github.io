@@ -546,6 +546,61 @@ h2{
 
 /* santos */
 
+main {
+    margin: 120px;
+}
+
+#quemsomos {
+    position: relative;
+    top: -40px;
+    left: 160px;
+    font-size: 50px;
+}
+
+.text {
+    margin-left: 60px;
+    font-size: 25px;
+}
+
+.conteudo {
+    display: flex;
+}
+
+#right {
+    margin-left: 10px;
+}
+
+.imgs {
+    width: 300px;
+    height: 300px;
+    margin-right: 100px;
+    position: relative;
+    top: -50px;
+    right: -30px;
+}
+
+#img-right {
+    position: relative;
+    left: 92px;
+}
+
+#text-final {
+    margin-left: 56px;
+    position: relative;
+    top: -117px;
+    font-size: 25px;
+}
+
+#botao {
+    background-color: #01005A;
+    font-size: 40px;
+    width: 179px;
+    height: 80px;
+    border-radius: 15px;
+}
+
+/* Final da Parte do santos*/
+
 
 
 footer {
