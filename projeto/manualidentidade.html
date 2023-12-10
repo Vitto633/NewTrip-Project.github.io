@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <title>New Trip - Agência de viagens</title>
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/mobile.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <script src="assets/js/script.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale-1.0"->
 </head>
 <body>
     <header>
@@ -30,7 +32,7 @@
             <select class="secondary">
                 <option>Atendimento</option>
             </select>
-            <a href="pagLogin.html"><button class="login"><i class="material-icons">person</i><b>Login</b><img src="" alt=""></button></a>
+            <a href="pagLogin.html"><button class="login"><i class="material-icons">person</i><b id="logintext">Login</b><img src="" alt=""></button></a>
             </div>
         </div>
     </header>
@@ -38,8 +40,8 @@
     <button class="suporte"><b>Suporte</b><i class="material-icons">support_agent</i><img src="" alt=""></button>
     <h2>Manual de Identidade</h2>
     <div class="painel"><img src="assets/img/icone.png" alt="">
-        <a href="assets/Manual_-_Identidade_NewTrip.pptx" download=""><button class="download"><i class="material-icons" id="seta">arrow_downward</i><p>Fazer Download</p></button>
+        <a class="baixar" href="assets/Manual_-_Identidade_NewTrip.pptx" download=""><button class="download"><i class="material-icons" id="seta">arrow_downward</i><p>Fazer Download</p></button>
     </a></div>
-    <a href="index.html"><button class="voltar">voltar</button></a>
+    <a href="index.html"><button class="voltar"><i class="material-icons" id="volta">arrow_back</i><p id="back">voltar</p></button></a>
 </body>
 </html>
