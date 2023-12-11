@@ -177,7 +177,7 @@ padding: 0;
     width: 1129px;
     height: 180px;
     position: relative;
-    left: 20%;  
+    left: 10%;  
     margin-left: 200px;
     background: #01005A;
     border-radius: 10px;
@@ -337,7 +337,7 @@ padding: 0;
     border-radius: 35px;
     background-size: 995px;
     background-position: 1px;
-    margin-left: 30%;
+    margin-left: 25%;
     margin-bottom: 50px;
 
 
@@ -1148,6 +1148,7 @@ footer {
     padding:5%;
     margin-bottom: 10px;
     display: flex;
+    margin-bottom: 100px;
     }
 
 .sobre-nos-card p{
@@ -1196,7 +1197,7 @@ footer {
     justify-content: center;
     align-items: center;
     position: relative;
-    left: 200px ;
+    left: 0px ;
 }
 
 #card1 h3{
@@ -1229,6 +1230,8 @@ footer {
     border-radius: 25px;
     justify-content: center;
     align-items: center;
+    position: relative;
+    right: 40px;
    
 }
 
@@ -1264,7 +1267,7 @@ footer {
     justify-content: center;
     align-items: center;
     position: relative;
-    right: 200px;   
+    right: 80px;   
 }
 
 #card3 h3{
@@ -1292,8 +1295,8 @@ footer {
 
 .titulos p{
     font-size:50px;
-    margin-bottom: 50px;
-    margin-left: 10%;
+    margin-bottom: 5%;
+    margin-left:10%;
     position: relative;
     top: 70px;
 }
@@ -1307,8 +1310,8 @@ footer {
 }
 
 #imagem_principal img{
-    width: 1900px;
-    height: 1000px;
+    width: 1500px;
+    height: 800px;
     border-radius: 25px;
 
 }
