@@ -1,121 +1,204 @@
 @media only screen and (max-device-width: 600px){
 
-/*geral*/
+    /*geral*/
     
-    .cabecalho{
-        justify-content: flex-end;
-    }
-
-/*pag de suporte*/
-    #itens{
-        left: 0;
-    }
-
-    .primary{
-        display: none;
+    
+        #manual{
+            width: 140%;
+        }
+    
+        .cabecalho{
+            justify-content: flex-end;
+        }
+        #login_text{
+            display: none;
+            
+        }
+    /*pag de suporte*/
+        #itens{
+            left: 0;
+        }
+    
+        .primary{
+            display: none;
+            
+        }
+    
+        .secondary{
+            display: none;
+        }
+    
+        .login{
+            background-color: #0909E5;
+            color: white;
+            display: flex;
+            padding: 5px 10px;
+            margin: 5px 30px;
+            border-radius: 100px;
+            border: none;
+            cursor: pointer;
+            width: 60px;
+            right: 20px;
+        }
+    
+        #logintext{
+            display: none;
+        }
+    
+        .suporte{
+            padding: 15px 10px;
+            width: 120px;
+        }
+    
+        .painel{
+            display: flex;
+            width: 60%;
+            height: 60%;
+        }
+    
+        .download{
+            background-color: #50a6f3;
+            width: 80%;
+            left: 20px;
+            align-items: center;
+            justify-content: center;
+        }
+    
+        .baixar{
+            justify-content: center;
+            display: flex;
+            margin: 15px;
+            background-color: #50a6f3;
+        }
+    
+        #seta.material.icons{
+            justify-content: space-around;
+        }
+    
+        #seta{
+            align-items: center;
+            justify-content: flex-start;
+            display: flex;
+        }
+    
+        #burger{
+            margin: 48px 10px;
+        }
+    
+        .voltar{
+            height: 10%;
+            padding: 0 30px;
+        }
+    
+        #volta{
+            display: flex;
+            color: white;
+            background-color: transparent;
+            width: 80%;
+            align-items: center;
+            justify-content: center;
+            margin: 0;
+            font-size: 36px;
+        }
+    
+        #back{
+            display: none;
+        }
+    
+    /*pag de login*/
+    
+        #login_email{
+            border-radius: 50px;    
+        }
+    
+        #login_senha{
+            border-radius: 50px;
+        }
+    
+        input{
+            border-radius: 50px;
+        }
+    
+        #semConta{
+            display: flex;
+            bottom: 30px;
+            align-items: center;
+            align-content: center;
+            word-wrap: normal;
+        }
+    
+        h1{
+            display: inline;
+        }
+    
+        /*quem somos*/
+    
+        .text{
+            left: 20px;
+        }
+        #text-final{
+            top: 0;
+            margin-left: 80px;
+        }
+    
+        #right.text{
+            margin-left: 80px;
+        }
+        main{
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            align-content: flex-end;
+            align-items: stretch;
+        }
+    
+        .conteudo{
+            flex-direction: column-reverse;
+        }
+    
+        #opc.voltar{
+            height: 10%;
+            padding: 20px 30px;
         
+        }
+    
+        #img-right.imgs{
+            left: 230px;
+        }
+    
+        #original.imgs{
+            left: 230px;
+        }
+    
+        #pink.imgs{
+            left: 230px;
+        }
+    
+        #text-final {
+            top: 0px;
+        }
+    
+        #esquerda{
+            align-items: center;
+            justify-content: flex-start;
+            display: flex;
+        }
+    
+        #somos.buttons{
+            margin: 0 10px;
+        }
+    
+        #logotipo{
+            left: 20px;
+            margin-top: 5px;
+        }
+    
+        #opc.login{
+            margin: 5px 80px 5px 0px;
+        }
+    
+        #quemsomos{
+            display: flex;
+            margin-left: 15px;
+        }
     }
-
-    .secondary{
-        display: none;
-    }
-
-    .login{
-        background-color: #0909E5;
-        color: white;
-        display: flex;
-        padding: 5px 10px;
-        margin: 5px 30px;
-        border-radius: 100px;
-        border: none;
-        cursor: pointer;
-    }
-
-    #logintext{
-        display: none;
-    }
-
-    .suporte{
-        padding: 15px 10px;
-    }
-
-    .painel{
-        display: flex;
-        width: 60%;
-        height: 60%;
-    }
-
-    .download{
-        background-color: #50a6f3;
-        width: 80%;
-        left: 20px;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .baixar{
-        justify-content: center;
-        display: flex;
-        margin: 15px;
-        background-color: #50a6f3;
-    }
-
-    #seta{
-        align-items: center;
-        justify-content: center;
-        display: flex;
-    }
-
-    #burger{
-        margin: 48px 10px;
-    }
-
-    .voltar{
-        height: 10%;
-        padding: 0 30px;
-    }
-
-    #volta{
-        display: flex;
-        color: white;
-        background-color: transparent;
-        width: 80%;
-        align-items: center;
-        justify-content: center;
-        margin: 0;
-        font-size: 36px;
-    }
-
-    #back{
-        display: none;
-    }
-
-/*pag de login*/
-    b{
-        display: flex;
-    }
-
-    #login_email{
-        border-radius: 50px;    
-    }
-
-    #login_senha{
-        border-radius: 50px;
-    }
-
-    input{
-        border-radius: 50px;
-    }
-
-    #semConta{
-        display: flex;
-        bottom: 30px;
-        align-items: center;
-        align-content: center;
-        word-wrap: normal;
-    }
-
-    h1{
-        display: inline;
-    }
-}
