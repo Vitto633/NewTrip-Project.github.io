@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: Arial;
 
+
 }
 body{
     margin:0;
@@ -20,9 +21,8 @@ body{
 
 
 
-footer{
- bottom:0;
-}
+
+
 #table-line{
     border-bottom: solid 1px;
     
@@ -42,6 +42,8 @@ footer{
 
 .logo img{
     width: 200px;
+    position:relative;
+    
 }
 
 
@@ -181,9 +183,12 @@ padding: 0;
     margin-left: 200px;
     background: #01005A;
     border-radius: 10px;
-    
+    justify-content: center;
     
     }
+#pacotes button{
+
+}
     
     #local{
     margin-top: 47px;
@@ -249,6 +254,7 @@ padding: 0;
     
     #periodo button{
         width:104px ;
+        
     }
     
     #ida{
@@ -400,10 +406,9 @@ font-size: 28px;
     background: #50A6F3;
     border-radius: 18px;
    margin-left: 100px;
-
+    
 
 }
-
 
 
 
@@ -665,11 +670,21 @@ main {
 .text {
     margin-left: 60px;
     font-size: 25px;
+    text-align: justify;
+    
 }
 
 .conteudo {
     display: flex;
+
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 15%;
+    
 }
+
 
 #right {
     margin-left: 10px;
@@ -678,31 +693,25 @@ main {
 .imgs {
     width: 300px;
     height: 300px;
-    margin-right: 100px;
+    margin:10px;    
     position: relative;
-    top: -50px;
-    right: -30px;
+    margin-right: 5rem;
+
 }
 
 #img-right {
     position: relative;
-    left: 92px;
+    
 }
 
 #text-final {
     margin-left: 56px;
     position: relative;
-    top: -117px;
+    text-align: center;
     font-size: 25px;
 }
 
-#botao {
-    background-color: #01005A;
-    font-size: 40px;
-    width: 179px;
-    height: 80px;
-    border-radius: 15px;
-}
+
 
 /* Final da Parte do santos*/
 
@@ -713,7 +722,7 @@ footer {
     color: white;
     padding: 10px;
     width: 100%;
-    height: 50%;
+    height: 70%;
     display: flex;
     font-size: 20px;
     display:flex;
@@ -738,6 +747,7 @@ footer {
     align-items: center;
     margin-left: 100px;
     margin-top: 80px;
+    text-decoration: none;
 }
 
 .right-itens p {
@@ -760,6 +770,15 @@ footer {
     height: 200px;
     margin: 10px;
 
+}
+.colunm-1{
+    display:flex;
+}
+.texts{
+    margin:0;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
 }
 
 
@@ -801,8 +820,8 @@ main {
     width: 150px;
     height: 60px;
     border-radius: 10px;
-    position: absolute;
-    top: 1119px;
+    position: relative;
+    
 }
 
 #quemsomos {
@@ -810,40 +829,25 @@ main {
 }
 
 .text {
-    margin-left: 80px;
+    margin-left: 80px;  
 }
 
-.conteudo {
-    display: flex;
-}
+
 
 #right {
     margin-left: -50px;
 }
 
-.imgs {
-    width: 300px;
-    height: 300px;
-    margin-right: 100px;
-    position: relative;
-    top: -50px;
-    right: -30px;
-}
-
-#text-final {
-    margin-left: 20px;
-    position: relative;
-    top: -90px;
-}
 
 header{
     background-color: #01005A;
     display: flex;
-    justify-content: space-between;
-    padding: 0;
+    justify-content: center;
+    padding: 5%;
     margin: 0;
     width: 100%;
     align-items: center;
+
     height: 100px;
 }
 
@@ -853,6 +857,8 @@ header{
 }
 #burger{
     font-size: 48px;
+    position: relative;
+    right: 250px;
 }
 
 #burger:hover{
@@ -886,15 +892,18 @@ li{
 
 .logo{
     background-color: transparent;
-    width: 15%;
+    width: 100%;
     align-items: center;
+    position: relative;
+    right: 250px;
 }
 
 .logo img{
-    width: 80%;
+    width: 250px;
     position: relative;
-    left: 30%;
-    padding-bottom: -20%;
+    bottom: 25px;
+    margin: 0;
+    
 }
 
 .buttons{
@@ -917,7 +926,7 @@ li{
     border: none;
     font-size: medium;
     font-weight: bold;
-    border-radius: 5%;
+    border-radius: 10px;
 }
 
 .primary:hover{
@@ -933,7 +942,7 @@ li{
     border: none;
     font-size: medium;
     font-weight: bold;
-    border-radius: 5%;
+    border-radius: 10px;
 }
 
 .secondary:hover{
@@ -946,15 +955,37 @@ li{
     display: flex;
     padding: 10px 15px;
     margin: 5px 50px;
-    border-radius: 10%;
+    border-radius: 10px;
     border: none;
     font-size: medium;
     cursor: pointer;
     align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 50px;
 }
 
-i{
-    font-size: 48px;
+.login button{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin:0;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+
+.login p{
+    position: relative;
+    font-size: 20px;
+    top: 10px;
+}
+.login i{
+    font-size: 30px;
+    position: relative;
+    bottom:4px;
+    left: 10px;    
+
 }
 
 button{
@@ -967,16 +998,6 @@ button{
 
 #pessoa{
     padding: 6px 0;
-}
-
-footer {
-    background-color: #01005A;
-    color: white;
-    padding: 10px;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    font-size: 20px;
 }
 
 #logo {
@@ -1092,6 +1113,7 @@ footer {
   .current-item {
     opacity: 1;
     font-display:flex;
+    background-color: #50A6F3;
   }
 
 
@@ -1153,7 +1175,7 @@ footer {
 
 .sobre-nos-card p{
     font-size: 20px;
-    
+    text-align: justify;
 
 }
 .sobre-nos-card img{
@@ -1313,5 +1335,11 @@ footer {
     width: 1500px;
     height: 800px;
     border-radius: 25px;
+
+}
+
+.logo-daqui button:hover{
+    background-color: #f9aab6;
+    transition:1s;
 
 }
