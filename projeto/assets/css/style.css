@@ -171,10 +171,10 @@ padding: 0;
 
 #pacotes{
     display: flex;
-        width: 1129px;
+    width: 1129px;
     height: 180px;
-    left: 53px;
-    top: 159px;
+    position: relative;
+    left: 20%;  
     margin-left: 200px;
     background: #01005A;
     border-radius: 10px;
@@ -335,7 +335,7 @@ padding: 0;
     background-size: 995px;
     background-position: 1px;
     margin-left: 30%;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 
 
 }
@@ -1023,6 +1023,7 @@ footer {
     padding: 15px;
     max-width: 640px;
     margin: 0 auto;
+    margin: 50px;
   }
   
   .gallery-wrapper {
@@ -1038,13 +1039,14 @@ footer {
     bottom: 0;
     font-size: 20px;
     line-height: 250px;
-    width: 40px;
+    width: 100px;
     color: #fff;
     transition: all 600ms ease-in-out;
     background: linear-gradient(to left, transparent 0%, black 200%);
     opacity: 0.1;
     cursor: pointer;
-    border: none;
+    border-radius: 20px;
+
   }
   
   .arrow-left:hover,
@@ -1066,8 +1068,8 @@ footer {
   }
   
   .item {
-    width: 250px;
-    height: 250px;
+    width: 500px;
+    height: 500px;
     flex-shrink: 0;
     transition: all 600ms ease-in-out;
     opacity: 0.2;
@@ -1120,6 +1122,7 @@ footer {
   /* sobre nos */
 
 .sobre-nos-card{
+
     width: 50%;
     background-color: #01005A;
     border-radius: 25px;
@@ -1152,4 +1155,136 @@ footer {
 #nos{
     font-size: 40px;
     height: bold;
+}
+
+#mais_opcoes{
+    display: flex;
+    width: 100%;
+    gap: 25px;
+}
+.cards-legais{
+    width: 100%;
+    margin-left: 5%;
+    
+    
+
+}
+#card1{
+    background-image: url(../img/card_1.jpg);
+    width: 523px;
+    height: 590px;
+    border-radius: 25px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 200px ;
+}
+
+#card1 h3{
+    background-color: #f9aab6;
+    width: 50%;
+    height: 10%;
+    margin-left: 80px;
+    position:relative;
+    left:50px;
+    top:20px;
+    padding: 3%;
+    text-align: center;
+    font-size:30px;
+    border-radius: 10px;
+    border-color:#000000;
+
+}
+
+#card1 p{
+    font-size: 40px;
+
+
+}
+
+#card2{
+    background-image: url(../img/card_2.jpg);
+    width: 523px;
+    height: 590px;
+    border-radius: 25px;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+#card2 h3{
+    background-color: #4070E9;
+    color: #fff;
+    width: 50%;
+    height: 10%;
+    margin-left: 80px;
+    position:relative;
+    left:50px;
+    top:20px;
+    padding: 3%;
+    text-align: center;
+    font-size:30px;
+    border-radius: 10px;
+    border-color:#000000;
+
+}
+
+#card2 p{
+    font-size: 40px;
+}
+
+#card3{
+ 
+    background-image: url(../img/card_3.jpg);
+    width: 523px;
+    height: 590px;
+    border-radius: 25px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: 200px;   
+}
+
+#card3 h3{
+    background-color:#50A6F3;
+    width: 50%;
+    height: 10%;
+    color:#FFFFFF;
+    margin-left: 80px;
+    position:relative;
+    left:50px;
+    top:20px;
+    padding: 3%;
+    text-align: center;
+    font-size:30px;
+    border-radius: 10px;
+    border-color:#000000;
+
+}
+
+#card3 p{
+    font-size: 40px;
+}
+
+.titulos p{
+    font-size:50px;
+    margin-bottom: 50px;
+    margin-left: 10%;
+    position: relative;
+    top: 70px;
+}
+
+#imagem_principal{
+    position: relative;
+    left: 10%;
+    top: 10%;
+    margin-bottom: 50px;
+    width: 100%;
+}
+
+#imagem_principal img{
+    width: 1900px;
+    height: 1000px;
+    border-radius: 25px;
+
 }
