@@ -1,14 +1,10 @@
 
-const controls = document.querySelectorAll(".control");
-let currentItem = 0;
-const items = document.querySelectorAll(".item");
-const maxItems = items.length;
 
 function login(){
     let login = document.getElementById("login_email").value
     let senha = document.getElementById("login_senha").value
     
-    if(login === 'newtrip@gmail.com'|| login === "123456789/12" && senha === '123456'){
+    if(login === 'newtrip@gmail.com'|| login === "Admin" && senha === "123456"){
        window.location.href = "index.html"
         alert("Login realizado com sucesso")
     }
@@ -31,7 +27,8 @@ function ocultarSenha(){
     }
     
     }
-function clickmenu(){
+
+    function clickmenu(){
     var itens = document.getElementById('itens');
     if (itens.style.display == 'block'){
         itens.style.display = 'none'
@@ -40,6 +37,10 @@ function clickmenu(){
     }
 }
 
+const controls = document.querySelectorAll(".control");
+let currentItem = 0;
+const items = document.querySelectorAll(".item");
+const maxItems = items.length;
 
 controls.forEach((control) => {
   control.addEventListener("click", (e) => {
@@ -61,11 +62,21 @@ controls.forEach((control) => {
 
     items.forEach((item) => item.classList.remove("current-item"));
 
-    // items[currentItem].scrollIntoView({
-    //   behavior: "smooth",
-    //   inline: "center"
-    // });
+    items[currentItem].scrollIntoView({
+      behavior: "smooth",
+      inline: "center"
+    });
 
     items[currentItem].classList.add("current-item");
+
+    if(currentItem == 2){
+      items[currentItem].scrollIntoView({
+        behavior: "smooth",
+        inline: "start"
+      });
+    
+    }
+
   });
-}); 
+});
+

@@ -18,6 +18,8 @@ body{
 
 }
 
+
+
 footer{
  bottom:0;
 }
@@ -52,17 +54,18 @@ footer{
 }
 
 #pagLogin p{
-margin-top: 0px;
-color: #01005A;
-padding-bottom: 20px;
-
+    margin-top: 0px;
+    color: #01005A;
+    padding-bottom: 20px;
+    margin-left: -46px;
+    margin-top: -19px;
 
 }
 
 #Esqueci{
     margin-top: -32px;
     color: #01005A;
-    padding-top: 16px;
+    padding-top: 35px;
     margin-left: 10px 
 
 }
@@ -639,6 +642,13 @@ h2{
     display: none;
 }
 
+
+
+
+
+
+
+
 /* santos */
 
 main {
@@ -1015,6 +1025,9 @@ footer {
     height: 29%;
 }
 
+
+
+
 /* carrossel */
 
 
@@ -1080,6 +1093,9 @@ footer {
     opacity: 1;
     font-display:flex;
   }
+
+
+
   
   /* This is from w3schools */
   /* 
@@ -1166,9 +1182,12 @@ footer {
     width: 100%;
     margin-left: 5%;
     
-    
-
 }
+
+
+
+
+
 #card1{
     background-image: url(../img/card_1.jpg);
     width: 523px;
@@ -1198,7 +1217,8 @@ footer {
 
 #card1 p{
     font-size: 40px;
-
+    margin-top: 332px;
+    margin-left: 27px;
 
 }
 
@@ -1231,6 +1251,8 @@ footer {
 
 #card2 p{
     font-size: 40px;
+    margin-top: 332px;
+    margin-left: 27px;
 }
 
 #card3{
@@ -1264,6 +1286,8 @@ footer {
 
 #card3 p{
     font-size: 40px;
+    margin-top: 332px;
+    margin-left: 27px;
 }
 
 .titulos p{
