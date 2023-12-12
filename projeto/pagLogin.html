@@ -6,10 +6,43 @@
     <link rel="shortcut icon" href="assets/img/icone.png">
     <link rel="stylesheet" href="assets/css/mobile.css">
     <script src="assets/js/script.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>New Trip - Agência de viagens</title>
     <meta name="viewport" content="width=device-width, initial-scale-1.0"->
 </head>
 <body>
+  <header>
+    <div class="cabecalho">
+        <i class="material-icons" id="burger" onclick="clickmenu()">menu</i>
+            <menu id="itens">
+                <nav>
+                    <a href="pagLogin.html"><li><button href="pagLogin.html"><i class="material-icons">person</i>Acessar minha conta</button></li></a>
+                    <li><button href="#"><i class="material-icons">shopping_bag</i>Produtos</button></li>
+                    <li><a href="mais_opcs.html"><button href="#"><i class="material-icons">groups</i>Quem somos</button></li></a>
+                    <li><a href="manualidentidade.html"><button href="#"><i class="material-icons">more_horiz</i>Mais opções</button></a></li>
+                </nav>  
+            </menu>
+        <div class="logo">
+            <a href="index.html"><button><img src="assets/img/Logo.png" alt=""></button></a>
+        </div>
+        <div class="buttons">
+        <select class="primary">
+            <option>Ofertas e Destinos</option>
+            <option>Rio de janeiro</option>
+            <option>Salvador</option>
+            <option>Natal</option>
+            <option>Santa Catarina</option>
+        </select>
+        <select class="secondary">
+            <option>Atendimento</option>
+            <option>Suporte</option>
+        </select>
+        <a href="pagLogin.html"><button class="login" id="pessoa"><i class="material-icons">person</i><p>Login</p><img src="" alt=""></button></a>
+        </div>
+    </div>
+</header>
     <div id="pagLogin">
   <h1><b>Entrar na minha conta</b></h1>
   <input type="email" placeholder="Digite seu Nome de Usuario" id="login_email">

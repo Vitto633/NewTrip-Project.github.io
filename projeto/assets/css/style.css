@@ -2,30 +2,146 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial;
-
-
+    font-family: Arial, Helvetica, sans-serif;
 }
-body{
+
+body {
     margin:0;
     padding: 0;
     width: 100%;
     height: 100vh;
-    
-    
-    /* justify-content: center;
-    align-items: center; */
-
-
 }
 
+main {
+    margin-left: 170px;
+    margin-right: 170px;
+    margin-top: 100px;
+}
 
+/* Header */
 
+header{
+    background-color: #01005A;
+    display: flex;
+    justify-content: center;
+    padding: 5%;
+    width: 100%;
+    height: 100px;
+    align-items: center;
+}
 
+.cabecalho{
+    position: relative;
+    top: 20px;
+    bottom: 20px;
+    left: 20px;
+}
+
+#burger{
+    font-size: 48px;
+    position: relative;
+    right: 283px;
+    bottom: -168px;
+}
+
+#burger:hover{
+    cursor: pointer;
+}
+
+li{
+    background-color: #01005A;
+    padding: 5px;
+}
+
+#itens{
+    display: none;
+    margin: auto;
+    list-style: none;
+    position: absolute;
+    top: 232px;
+    left: -284px;
+}
+
+.material-icons{
+    font-size: 36px;
+    color: white;
+    display: flex;
+    width: 50px;
+    height: 50%;
+    margin: auto;
+    text-align: center;
+    align-items: flex-start;
+    font-size: 48px;
+}
+
+.logo{
+    background-color: transparent;
+    width: 100%;
+    align-items: center;
+    position: relative;
+    right: 250px;
+}
+
+.logo img{
+    position: relative;
+    width: 200px;
+    bottom: -46px;
+    left: 174px;
+}
+
+.buttons{
+    display: flex;
+    position: relative;
+    bottom: 139px;
+    right: -318px;
+    height: 40%;
+    margin: 0px 60px;
+    padding: 50px 0px;
+    align-items: center;
+    align-content: center;
+    top: 50%;
+}
+
+.primary{
+    display: flex;
+    color: white;
+    background-color: #01005A;
+    padding: 20px 10px;
+    margin: 5px 40px 5px 60px;
+    border: none;
+    font-size: medium;
+    font-weight: bold;
+    border-radius: 10px;
+    position: relative;
+    left: -122px;
+}
+
+.primary:hover{
+    background-color: #4070E9;
+}
+
+.secondary{
+    display: flex;
+    color: white;
+    background-color: #01005A;
+    padding: 20px 10px;
+    margin: 5px 40px;
+    border: none;
+    font-size: medium;
+    font-weight: bold;
+    border-radius: 10px;
+    position: relative;
+    left: -66px;
+}
+
+.secondary:hover{
+    background-color: #4070E9;
+}
+
+/* Fim do Header */
 
 #table-line{
     border-bottom: solid 1px;
-    
 }
 
 .itens-table{
@@ -33,18 +149,18 @@ body{
     position: relative;
     gap:3px;
 }
+
 .table-collumn-first{
     margin: 1000px;
 }
+
 .itens-footer{
     display:flex;
 }
 
-.logo img{
-    width: 200px;
+/*.logo img{
     position:relative;
-    
-}
+}*/
 
 
 /* arthur */
@@ -52,7 +168,7 @@ body{
 #pagLogin{
     margin-top: 50px;
     align-items: center;
-    margin-left: 422px;
+    margin-left: 501px;
 }
 
 #pagLogin p{
@@ -179,13 +295,14 @@ padding: 0;
     width: 1129px;
     height: 180px;
     position: relative;
-    left: 10%;  
-    margin-left: 200px;
+    left: 10%;
+    top: -24px;
+    margin-left: 50px;
     background: #01005A;
     border-radius: 10px;
     justify-content: center;
-    
-    }
+}
+
 #pacotes button{
 
 }
@@ -248,8 +365,10 @@ padding: 0;
     
     #periodo h4{
         color: white;
-        margin-left: 40px;
-       font-size: 20px;   
+        position: relative;
+        left: 37px;
+        top: 14px;
+        font-size: 20px;
     }
     
     #periodo button{
@@ -335,18 +454,17 @@ padding: 0;
     
 
 #login{
-    width: 968px;
+    width: 60%;
+    position: relative;
     height: 524px;
-    left: 999px;
-    top: 4091px;
+    left: 0%;
+    top: 200px;
     background: url(../img/fotoLogin.avif);
     border-radius: 35px;
     background-size: 995px;
     background-position: 1px;
-    margin-left: 25%;
+    margin-left: 21%;
     margin-bottom: 50px;
-
-
 }
 
 #login h2{
@@ -435,119 +553,6 @@ font-size: 28px;
     
     
 /* gabriel */
-
-*{
-    margin: 0;
-    padding: 0;
-    font-family: Arial;
-    text-decoration: none;
-}
-
-header{
-    background-color: #01005A;
-    display: flex;
-    justify-content: space-between;
-    padding: 0;
-    margin: 0;
-    width: 100%;
-    align-items: center;
-    height: 100px;
-}
-
-.cabecalho{
-    display: flex;
-}
-
-#burger{
-    font-size: 48px;
-}
-
-#burger:hover{
-    cursor: pointer;
-}
-
-li{
-    background-color: #01005A;
-    padding: 5px;
-}
-
-#itens{
-    display: none;
-    margin: auto;
-    list-style: none;
-    position: absolute;
-    top: 70px;
-}
-
-.material-icons{
-    font-size: 36px;
-    color: white;
-    display: flex;
-    width: 50px;
-    height: 50%;
-    margin: auto;
-    text-align: center;
-    align-items: flex-start;
-    font-size: 48px;
-}
-
-.logo{
-    background-color: transparent;
-    align-items: center;
-    width: 15%;
-    min-width: 180px;
-    height: 10vh;
-}
-
-.logo img{
-    width: 100%;
-    position: relative;
-    left: 30%;
-}
-
-.buttons{
-    display: flex;
-    height: 40%;
-    margin: 0px 60px;
-    padding: 50px 0px;
-    align-items: center;
-    align-content: center;
-    top: 50%;
-}
-
-.primary{
-    display: flex;
-    color: white;
-    background-color: #01005A;
-    padding: 20px 10px;
-    margin: 5px 40px 5px 60px;
-    border: none;
-    font-size: medium;
-    font-weight: bold;
-    border-radius: 10px;
-}
-
-.primary:hover{
-    background-color: #4070E9;
-    transition: 0.2s;
-}
-
-.secondary{
-    display: flex;
-    color: white;
-    background-color: #01005A;
-    padding: 20px 10px;
-    margin: 5px 40px;
-    border: none;
-    font-size: medium;
-    font-weight: bold;
-    border-radius: 10px;
-}
-
-.secondary:hover{
-    background-color: #4070E9;
-    transition: 0.2s;
-}
 
 .login{
     background-color: #0909E5;
@@ -656,10 +661,6 @@ h2{
 
 /* santos */
 
-main {
-    margin: 120px;
-}
-
 #quemsomos {
     position: relative;
     top: -40px;
@@ -716,18 +717,17 @@ main {
 /* Final da Parte do santos*/
 
 
-
 footer {
     background-color: #01005A;
     color: white;
     padding: 10px;
     width: 100%;
-    height: 70%;
+    height: 110%;
     display: flex;
     font-size: 20px;
-    display:flex;
     position: relative;
-    bottom:0;
+    bottom: 0;
+    top: 30px;
 }
 
 #logo {
@@ -802,18 +802,6 @@ footer {
     height: 125px;
 }
 
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
-    padding: 0;
-}
-
-main {
-    margin-left: 170px;
-    margin-right: 170px;
-    margin-top: 100px;
-}
-
 #botao {
     background-color: #01005A;
     font-size: 25px;
@@ -836,117 +824,6 @@ main {
 
 #right {
     margin-left: -50px;
-}
-
-
-header{
-    background-color: #01005A;
-    display: flex;
-    justify-content: center;
-    padding: 5%;
-    margin: 0;
-    width: 100%;
-    align-items: center;
-
-    height: 100px;
-}
-
-.cabecalho{
-    display: flex;
-
-}
-#burger{
-    font-size: 48px;
-    position: relative;
-    right: 250px;
-}
-
-#burger:hover{
-    cursor: pointer;
-}
-
-li{
-    background-color: #01005A;
-    padding: 5px;
-}
-
-#itens{
-    display: none;
-    margin: auto;
-    list-style: none;
-    position: absolute;
-    top: 70px;
-}
-
-.material-icons{
-    font-size: 36px;
-    color: white;
-    display: flex;
-    width: 50px;
-    height: 50%;
-    margin: auto;
-    text-align: center;
-    align-items: flex-start;
-    font-size: 48px;
-}
-
-.logo{
-    background-color: transparent;
-    width: 100%;
-    align-items: center;
-    position: relative;
-    right: 250px;
-}
-
-.logo img{
-    width: 250px;
-    position: relative;
-    bottom: 25px;
-    margin: 0;
-    
-}
-
-.buttons{
-    display: flex;
-    height: 40%;
-    margin: 0px 60px;
-    padding: 50px 0px;
-    align-items: center;
-    align-content: center;
-    top: 50%;
-    
-}
-
-.primary{
-    display: flex;
-    color: white;
-    background-color: #01005A;
-    padding: 20px 10px;
-    margin: 5px 40px 5px 60px;
-    border: none;
-    font-size: medium;
-    font-weight: bold;
-    border-radius: 10px;
-}
-
-.primary:hover{
-    background-color: #4070E9;
-}
-
-.secondary{
-    display: flex;
-    color: white;
-    background-color: #01005A;
-    padding: 20px 10px;
-    margin: 5px 40px;
-    border: none;
-    font-size: medium;
-    font-weight: bold;
-    border-radius: 10px;
-}
-
-.secondary:hover{
-    background-color: #4070E9;
 }
 
 .login{
@@ -974,12 +851,12 @@ li{
     text-transform: capitalize;
 }
 
-
-.login p{
+.login p {
     position: relative;
     font-size: 20px;
-    top: 10px;
+    top: 9px;
 }
+
 .login i{
     font-size: 30px;
     position: relative;
@@ -1055,9 +932,8 @@ button{
 .container {
     position: relative;
     padding: 15px;
-    max-width: 640px;
-    margin: 0 auto;
-    margin: 50px;
+    left: 20px;
+    top: -52px;
   }
   
   .gallery-wrapper {
@@ -1160,18 +1036,19 @@ button{
   /* sobre nos */
 
 .sobre-nos-card{
-
-    width: 50%;
+    width: 60%;
     background-color: #01005A;
     border-radius: 25px;
     justify-content: center;
     color: #fff;
-    margin-left: 25%;
-    padding:5%;
+    position: relative;
+    top: 120px;
+    margin-left: 21%;
+    padding: 5%;
     margin-bottom: 10px;
     display: flex;
     margin-bottom: 100px;
-    }
+}
 
 .sobre-nos-card p{
     font-size: 20px;
@@ -1198,23 +1075,26 @@ button{
 
 #mais_opcoes{
     display: flex;
-    width: 100%;
-    gap: 25px;
+    width: 50%;
+    height: 50%;
+    gap: 59px;
 }
+
 .cards-legais{
     width: 100%;
-    margin-left: 5%;
-    
+    margin-left: 15%;    
+    gap: 25px;
+
 }
 
-
-
-
+.card-title h3 {
+    font-size: 26px;
+}
 
 #card1{
     background-image: url(../img/card_1.jpg);
-    width: 523px;
-    height: 590px;
+    width: 357px;
+    height: 597px;
     border-radius: 25px;
     justify-content: center;
     align-items: center;
@@ -1227,12 +1107,12 @@ button{
     width: 50%;
     height: 10%;
     margin-left: 80px;
-    position:relative;
-    left:50px;
-    top:20px;
+    position: relative;
+    left: 5%;
+    top: 20px;
     padding: 3%;
     text-align: center;
-    font-size:30px;
+    /* font-size: 20px; */
     border-radius: 10px;
     border-color:#000000;
 
@@ -1241,20 +1121,23 @@ button{
 #card1 p{
     font-size: 40px;
     margin-top: 332px;
-    margin-left: 27px;
+    margin-left: 30px;
+    
+}
 
+#card1 b {
+    font-size: 20px;
 }
 
 #card2{
     background-image: url(../img/card_2.jpg);
-    width: 523px;
-    height: 590px;
+    width: 357px;
+    height: 597px;
     border-radius: 25px;
     justify-content: center;
     align-items: center;
     position: relative;
     right: 40px;
-   
 }
 
 #card2 h3{
@@ -1264,27 +1147,25 @@ button{
     height: 10%;
     margin-left: 80px;
     position:relative;
-    left:50px;
+    left: 5%;
     top:20px;
     padding: 3%;
     text-align: center;
     font-size:30px;
     border-radius: 10px;
     border-color:#000000;
-
 }
 
 #card2 p{
-    font-size: 40px;
+    font-size: 20px;
     margin-top: 332px;
     margin-left: 27px;
 }
 
 #card3{
- 
     background-image: url(../img/card_3.jpg);
-    width: 523px;
-    height: 590px;
+    width: 357px;
+    height: 597px;
     border-radius: 25px;
     justify-content: center;
     align-items: center;
@@ -1299,7 +1180,7 @@ button{
     color:#FFFFFF;
     margin-left: 80px;
     position:relative;
-    left:50px;
+    left: 5%;
     top:20px;
     padding: 3%;
     text-align: center;
@@ -1310,17 +1191,17 @@ button{
 }
 
 #card3 p{
-    font-size: 40px;
+    font-size: 20px;
     margin-top: 332px;
     margin-left: 27px;
 }
 
 .titulos p{
-    font-size:50px;
-    margin-bottom: 5%;
-    margin-left:10%;
+    font-size: 50px;
     position: relative;
-    top: 70px;
+    bottom: 5%;
+    left: 10%;
+    top: -13px; 
 }
 
 #imagem_principal{
@@ -1332,10 +1213,12 @@ button{
 }
 
 #imagem_principal img{
-    width: 1500px;
+    width: 1000px;
     height: 800px;
     border-radius: 25px;
-
+    position: relative;
+    right: -116px;
+    top: -35px;
 }
 
 .logo-daqui button:hover{
